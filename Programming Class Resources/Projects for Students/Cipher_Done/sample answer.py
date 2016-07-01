@@ -1,4 +1,4 @@
-#author: Daihui Meng, Alexander Lee.
+#Xingfan Xia
 
 import random
 message = input("please enter the code you want to encrypt: ")
@@ -44,7 +44,7 @@ while message != 'q':
     
     
     print (newm)
-    print ("a shift of", shift, "was used")
+    print ('a shift of', shift, 'was used')
     #begin a new encryption. 
     message = input("enter the text to encrypt: ")
    
