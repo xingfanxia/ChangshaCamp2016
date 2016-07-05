@@ -1,4 +1,10 @@
-#Xingfan Xia
+# Python CLI Cipher
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Date    : 2016-07-01 22:23:37
+# @Author  : Xingfan Xia (xiax@carleton.edu)
+# @Link    : http://xiax.tech
+# @Version : $1.0
 
 import random
 message = input("please enter the code you want to encrypt: ")
