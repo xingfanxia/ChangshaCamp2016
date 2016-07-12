@@ -1,4 +1,10 @@
-#Xingfan Xia
+# Python Decipher with File Handling
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Date    : 2016-07-01 22:23:37
+# @Author  : Xingfan Xia (xiax@carleton.edu)
+# @Link    : http://xiax.tech
+# @Version : $1.0
 
 import sys
 #a function that lists out the frequency of each alphabetical character

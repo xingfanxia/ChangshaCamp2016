@@ -1,5 +1,10 @@
-# The 24 Game Solver Python Version
-# @author Xingfan Xia
+#The 24 Game Solver Python Version
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Date    : 2016-07-01 22:23:37
+# @Author  : Xingfan Xia (xiax@carleton.edu)
+# @Link    : http://xiax.tech
+# @Version : $1.0
 import math
 
 PRECISION = 1E-6

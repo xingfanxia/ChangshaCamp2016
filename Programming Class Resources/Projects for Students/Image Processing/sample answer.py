@@ -1,4 +1,13 @@
-#author: Daihui Meng
+# Photolab Image filters
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Date    : 2016-07-01 22:23:37
+# @Author  : Xingfan Xia (xiax@carleton.edu)
+# @Link    : http://xiax.tech
+# @Version : $1.0
+
+from cImage import *
+from sys import *
 
 def oneColor(image,color):
     newimage = image.copy()
@@ -14,8 +23,6 @@ def oneColor(image,color):
         newimage.setPixel1D(i, pix)
     return newimage
 
-
-
 def negate(image):
     newimage = image.copy()
     
@@ -24,8 +31,6 @@ def negate(image):
         pix.red, pix.green, pix.blue = 255-pix.red, 255-pix.green, 255-pix.blue
         newimage.setPixel1D(i,pix)
     return newimage
-
-
 
 def scale(val):
 #credit to Sherri
@@ -53,8 +58,6 @@ def saturate(image, k):
         newimage.setPixel1D(i,pix)
     return newimage
 
-
-
 def main():
     
     image = FileImage(argv[1])
@@ -75,6 +78,5 @@ def main():
     
     input("enter to quit: ")
 
-from cImage import *
-from sys import *
-main()
+if __name__ == '__main__':
+    main()
