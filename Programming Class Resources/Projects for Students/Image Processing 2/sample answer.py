@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # Python rawimage Filter 2 Blur
 # @Date    : 2016-07-02 00:00:04
-# @Author  : Your Name (you@example.org)
-# @Link    : http://example.org
-# @Version : $Id$
+# @Author  : Xingfan Xia
+# @Link    : http://xiax.tech
+# @Version : v2.0
 
 from cImage import *
 import sys

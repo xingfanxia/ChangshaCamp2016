@@ -1,8 +1,1 @@
-Cryptography is the practice and study of hiding information. Modern cryptography intersects the disciplines of mathematics, computer science, and engineering. Applications of cryptography include ATM cards, computer passwords, and electronic commerce.
-
-Cryptology prior to the modern age was almost synonymous with encryption, the conversion of information from a readable state to nonsense. The sender retained the ability to decrypt the information and therefore avoid unwanted persons being able to read it. Since WWI and the advent of the computer, the methods used to carry out cryptology have become increasingly complex and its application more widespread.
-
-Alongside the advancement in cryptology-related technology, the practice has raised a number of legal issues, some of which remain unresolved.
-
-State, state, state.
-
+unable to decrypt this text
